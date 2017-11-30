@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# 先安装web app框架flask,
+# 执行命令pip install flask
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
